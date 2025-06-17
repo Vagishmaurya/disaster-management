@@ -21,7 +21,7 @@ const app = express()
 const server = createServer(app)
 const io = new Server(server, {
   cors: {
-    origin: process.env.FRONTEND_URL || ["http://localhost:3000", "https://*.vercel.app"],
+    origin: process.env.FRONTEND_URL || ["http://localhost:3000", "https://disaster-management-b3z9-hgvr9ok50-vagishmauryas-projects.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   },
